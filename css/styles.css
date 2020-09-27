@@ -1,0 +1,330 @@
+.bg-dark .nav-link {
+    color: #f7f7f7 !important;
+}
+
+.bg-dark .navbar-brand {
+    color: #f7f7f7 !important;
+}
+
+.bg-dark {
+    background-color: #402039 !important;
+    border-radius: .1em;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #f7f7f7;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 247, 247, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    background-color: #f7f7f7 !important;
+    color: #402039;
+}
+
+.content {
+    flex: 1 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #402039;
+    flex-shrink: 0;
+    border-radius: .1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.footer p {
+    color: #f7f7f7;
+    margin: auto;
+    text-align: center;
+}
+
+.masonry {
+    /* Masonry container */
+    column-count: 1;
+    column-gap: 1em;
+}
+
+.item {
+    /* Masonry bricks or child elements */
+    background-color: #f7f7f7;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.review {
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #878787;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 8px 8px 4px grey;
+}
+
+.review p {
+    color: #5e5e5e;
+}
+
+.review p strong {
+    color: #402039;
+}
+
+.carousel-item img {
+    margin: auto;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.text-box {
+    display: inline;
+    padding: 1em;
+}
+
+.text-box h1 {
+    text-align: center;
+}
+
+.reviews-page {
+    column-gap: 2em;
+    margin-left: auto;
+}
+
+.wrapper {
+    height: 100vh;
+    margin-top: -65px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+.section {
+    position: relative;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0px 0px 50px #402039;
+}
+
+.parallax {
+    height: 50vw;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: -100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.6);
+    background-size: 100%;
+    z-index: -1;
+}
+
+.static {
+    background: white;
+}
+
+.bg1::after {
+    background-image: url("../images/house-falling-apart2.jpg");
+}
+
+.bg2::after {
+    background-image: url('../images/nice-house.jpg');
+    top: -85px;
+}
+
+.house {
+    border-style: solid;
+    border-radius: .2em;
+    border-color: #402039;
+    box-shadow: 6px 6px 3px grey;
+    margin-bottom: 2em;
+}
+
+.house hr {
+    padding: 0px;
+    margin: 0px;
+    height: 2px;
+    background-color: #402039;
+    color: #402039;
+}
+
+.house h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: medium;
+}
+
+.house img {
+    width: 100%;
+}
+
+.price {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.title {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.description {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: .25em;
+}
+
+.navbar-brand {
+    font-family: "Lucida Bright", Georgia, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.nav-link {
+    font-family: "Lucida Bright", Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+.page-label {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.crop-height {
+    max-height: 320px;
+    overflow: hidden;
+}
+
+.crop-height img.scale {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    -ms-interpolation-mode: bicubic;
+}
+
+.main-title {
+    color: #402039;
+    text-shadow: none;
+}
+
+.main-text {
+    color: #7f726c;
+    text-shadow: none;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 650px) {
+    .carousel-item img {
+        width: 100%;
+    }
+    .section {
+        height: 95vh;
+    }
+    .parallax::after {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: none;
+        background-size: 100%;
+        z-index: -1;
+    }
+    .parallax {
+        height: 60vw;
+    }
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 651px) and (max-width: 960px) {
+    .carousel-item img {
+        width: 100%;
+    }
+    .masonry {
+        /* Masonry container */
+        column-count: 2;
+        column-gap: 1em;
+    }
+    .reviews-page {
+        column-count: 2;
+        column-gap: 2em;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+    .intro, .intro-photo {
+        width: 50%
+    }
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c9c9c9' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c9c9c9' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+    .masonry {
+        /* Masonry container */
+        column-count: 4;
+        column-gap: 1em;
+    }
+    .reviews-page {
+        column-count: 3;
+        column-gap: 2em;
+    }
+}
